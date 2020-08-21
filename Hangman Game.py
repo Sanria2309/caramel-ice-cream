@@ -52,7 +52,7 @@ def br() :
     print("_"*25, "\n")
     
 def pr(str1="") :
-    print(" "10, ""8, str1, ""*8)
+    print(" "*10, "*"*8, str1, "*"*8)
     time.sleep(2)
 
 def game(hint_list, word_list, c=8) :
